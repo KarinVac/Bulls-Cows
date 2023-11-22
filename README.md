@@ -1,1 +1,3 @@
-# Bulls-Cows
+The program will generate a secret 4-digit number (digits must be unique and cannot start with 0). The player guesses the number. The program will alert them if they enter a number shorter or longer than 4 digits, if it contains duplicates, starts with zero, or if it contains non-numeric characters. The program evaluates the user's guess and then outputs the number of bulls (if the user guesses both the number and its position) and/or cows (if the user guesses only the number, but not its position). The returned feedback must account for singular and plural forms in the output, for example, "1 bull" and "2 bulls" (similarly for cow/cows).
+
+The program keeps track of the time it takes to guess the number and the number of attempts.
